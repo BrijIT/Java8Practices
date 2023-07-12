@@ -16,7 +16,9 @@ public class Question3 {
         }
 
         A a = new A();
-        a.fun(null);
+        a.fun("Hi");
+        // a.fun(null);
+
         // Ambiguity Error Because Integer and String both are wrapper classes and both
         // has default value null
 
